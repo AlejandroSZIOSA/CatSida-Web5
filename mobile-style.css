@@ -1,3 +1,7 @@
+/* Mobile */
+
+/* TODO: Define all Styles structures here */
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -8,7 +12,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
+  background-color: #ff0404;
   color: #fff;
   text-align: center;
   padding: 10px;

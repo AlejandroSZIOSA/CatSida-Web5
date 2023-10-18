@@ -10,7 +10,8 @@ body {
 
 header {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column; /* added */
+  justify-content: center; /* modificad */
   align-items: center;
   background-color: #ff0404;
   color: #fff;
@@ -19,6 +20,7 @@ header {
 }
 
 nav {
+  display: none; /* added */
   text-align: center;
   padding: 10px;
 }

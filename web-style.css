@@ -9,6 +9,10 @@
     padding: 0;
   } */
 
+  body {
+    width: auto;
+  }
+
   header {
     display: flex;
     flex-direction: row; /* added */
@@ -69,8 +73,14 @@
 
   .section1 img {
     width: 50%;
-    /* height: auto; */
+    height: auto;
     border-radius: 30px;
+  }
+
+  /* Agregado */
+  #catImage2 {
+    width: auto;
+    height: auto;
   }
 
   .section1 h2 {

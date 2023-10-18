@@ -42,13 +42,13 @@
   }
  */
   .button {
-    background-color: #555;
+    /* background-color: #555;
     color: #fff;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
-    margin-left: 0; /* added */
+    cursor: pointer; */
+    margin-left: 0%; /* added */
   }
 
   .container {
@@ -59,10 +59,10 @@
 
   .section {
     padding: 40px;
-    background-color: #f1f1f1;
+    /* background-color: #f1f1f1;
     margin: 10px;
     border: 1px solid #ddd;
-    border-radius: 5px;
+    border-radius: 5px; */
   }
 
   .section1 {
@@ -80,7 +80,7 @@
 
   /* Id Added */
   #catImage2 {
-    width: auto;
+    width: auto; /* fix the problem */
     border-radius: 0px; /* added */
     /* height: auto; */
   }
@@ -90,21 +90,21 @@
     text-align: left; /* added */
   }
 
-  .catGrid {
+  /* .catGrid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: 100%;
-  }
+  } */
 
-  .catGrid img {
+  /* .catGrid img {
     width: 100%;
     height: auto;
-  }
+  } */
 
-  footer {
+  /* footer {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 10px;
-  }
+  } */
 }

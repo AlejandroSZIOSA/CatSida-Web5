@@ -44,7 +44,7 @@ main {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  /* margin-left: 25%; */
+  margin-left: 35%; /* added */
 }
 
 .container {
@@ -69,19 +69,22 @@ main {
 }
 
 .section1 img {
-  width: 50%;
+  width: 100%;
   height: auto;
-  border-radius: 30px;
+  border-radius: 10px;
 }
 
-/* Agregado */
+/* Id Added */
 #catImage2 {
-  width: 50%;
-  height: 50%;
+  width: 100%;
+  border-radius: 10px; /* added */
+  /* height: auto; */
 }
 
-.section1 h2 {
-  font-size: 2.5rem;
+/* Change .section1 to div */
+div h2 {
+  font-size: 1.5rem; /* modificad */
+  text-align: center; /* added */
 }
 
 .catGrid {

@@ -32,7 +32,7 @@ nav a {
 }
 
 main {
-  display: flex;
+  display: flex; /* Important */
   justify-content: center;
 }
 
@@ -43,12 +43,13 @@ main {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  /* margin-left: 25%; */
 }
 
 .container {
   display: flex;
   flex-direction: column;
-  width: 390px; /* changed */
+  width: 390px; /* changed to mobile dimensions*/
 }
 
 .section {
@@ -63,11 +64,11 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 30px;
+  gap: 20px;
 }
 
 .section1 img {
-  width: 50%;
+  width: 100%;
   height: auto;
   border-radius: 10px;
 }

@@ -11,13 +11,19 @@ body {
 
 header {
   display: flex;
-  flex-direction: column; /* added */
+  flex-direction: row; /* added */
   justify-content: center; /* modificad */
   align-items: center;
-  background-color: #ff0404;
+  background-color: #000000;
   color: #fff;
-  text-align: center;
-  padding: 10px;
+  text-align: left;
+  padding: 0px;
+}
+
+/* Hamburger Menu Imported */
+.material-symbols-outlined {
+  display: inline;
+  padding-left: 40%;
 }
 
 nav {

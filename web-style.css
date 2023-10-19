@@ -3,23 +3,12 @@
 /* TODO: Modify only properties that will be change */
 
 @media only screen and (min-width: 780px) {
-  /* body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  } */
-
   body {
     width: auto;
   }
 
   header {
-    /* display: flex; */
-    /* flex-direction: row;  */
     justify-content: space-between;
-    /* align-items: center; */
-    /* background-color: #333; */
-    /* color: #fff; */
     text-align: center;
     padding: 10px; /*  Added */
   }
@@ -31,56 +20,27 @@
 
   nav {
     display: inline; /* added */
-    /*   text-align: center;
-    padding: 10px; */
   }
 
-  /* nav a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 20px;
-  }
- */
-
-  /* main {
-    display: flex;
-    justify-content: center;
-  }
- */
   .button {
-    /* background-color: #555;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer; */
     margin-left: 0%; /* added */
   }
 
   .container {
-    /* display: flex; */
-    /* flex-direction: column; */
     width: 900px;
   }
 
   .section {
     padding: 40px;
-    /* background-color: #f1f1f1;
-    margin: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px; */
   }
 
   .section1 {
-    /* display: flex; */
     flex-direction: row;
-    /* align-items: center; */
     gap: 30px;
   }
 
   .section1 img {
     width: 50%;
-    /* height: auto; */
     border-radius: 30px;
   }
 
@@ -88,7 +48,6 @@
   #catImage2 {
     width: auto; /* fix the problem */
     border-radius: 0px; /* added */
-    /* height: auto; */
   }
 
   div h2 {
@@ -105,12 +64,5 @@
   /* .catGrid img {
     width: 100%;
     height: auto;
-  } */
-
-  /* footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
   } */
 }

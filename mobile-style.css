@@ -11,13 +11,11 @@ body {
 
 header {
   display: flex;
-  /* flex-direction: row; */
-  justify-content: center; /* modificad */
+  justify-content: center; /* changed */
   align-items: center;
   background-color: #000000;
   color: #fff;
   text-align: left;
-  padding: 0px; /* Default Value */
 }
 
 /* Hamburger Menu Imported */
@@ -33,7 +31,7 @@ nav {
 }
 
 nav a {
-  color: #fff;
+  color: #ffffff;
   text-decoration: none;
   margin: 0 20px;
 }
@@ -76,7 +74,6 @@ main {
 
 .section1 img {
   width: 100%;
-  /* height: auto; */
   border-radius: 10px;
 }
 

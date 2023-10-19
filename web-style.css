@@ -14,19 +14,19 @@
   }
 
   header {
-    display: flex;
+    /* display: flex; */
     /* flex-direction: row;  */
     justify-content: space-between;
     /* align-items: center; */
     /* background-color: #333; */
     /* color: #fff; */
     text-align: center;
-    padding: 10px;
+    padding: 10px; /*  Added */
   }
 
   /* Hamburger Menu Imported */
   .material-symbols-outlined {
-    display: none;
+    display: none; /* Added */
   }
 
   nav {
@@ -35,11 +35,12 @@
     padding: 10px; */
   }
 
-  nav a {
+  /* nav a {
     color: #fff;
     text-decoration: none;
     margin: 0 20px;
   }
+ */
 
   /* main {
     display: flex;

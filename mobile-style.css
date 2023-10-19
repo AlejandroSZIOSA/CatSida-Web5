@@ -1,6 +1,6 @@
 /* Mobile */
 
-/* TODO: Define all Styles structures here */
+/* TODO: Define all Styles in whole project */
 
 body {
   font-family: Arial, sans-serif;
@@ -11,13 +11,13 @@ body {
 
 header {
   display: flex;
-  flex-direction: row; /* added */
+  /* flex-direction: row; */
   justify-content: center; /* modificad */
   align-items: center;
   background-color: #000000;
   color: #fff;
   text-align: left;
-  padding: 0px;
+  padding: 0px; /* Default Value */
 }
 
 /* Hamburger Menu Imported */

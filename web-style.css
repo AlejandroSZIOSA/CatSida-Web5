@@ -23,7 +23,15 @@
   }
 
   .button {
-    margin-left: 0%; /* added */
+    margin-left: 0%; /* added Fix the problem*/
+    transition-property: background-color, color; /* Animations */
+    transition-duration: 2s; /* Animations */
+  }
+
+  /* Animations */
+  .button:hover {
+    background-color: rgb(0, 255, 255);
+    color: rgb(0, 0, 0);
   }
 
   .container {
@@ -42,6 +50,15 @@
   .section1 img {
     width: 50%;
     border-radius: 30px;
+    opacity: 0.8; /* Animations */
+    transition: 0.3s; /* Animations */
+    transition-delay: 0.3s; /* Animations */
+  }
+
+  /* Animations */
+  .section1 img:hover {
+    transform: scale(1.08, 1.08);
+    opacity: 1;
   }
 
   /* Id Added */

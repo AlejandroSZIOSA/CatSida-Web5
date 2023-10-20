@@ -1,6 +1,10 @@
 /* Web */
 
-/* TODO: Modify only properties that will be change */
+/*  DONE: Add only styles properties that will be change (Overriding) 
+    IMPORTANT:  
+    -Can add new properties,Default values are important to know
+    -Do not repeat properties with the same values 
+*/
 
 @media only screen and (min-width: 780px) {
   body {
@@ -23,7 +27,7 @@
   }
 
   .button {
-    margin-left: 0%; /* added Fix the problem*/
+    margin-left: 0%; /* added -Fix the problem*/
     transition-property: background-color, color; /* Animations */
     transition-duration: 2s; /* Animations */
   }
@@ -79,14 +83,20 @@
     text-align: left; /* added */
   }
 
-  /* .catGrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 100%;
-  } */
+  .catGrid {
+    gap: 11px;
+  }
 
-  /* .catGrid img {
-    width: 100%;
-    height: auto;
-  } */
+  /* Animations */
+  .catGrid img {
+    opacity: 0.9;
+    transition: 0.3s;
+    transition-delay: 0.3s;
+  }
+
+  /* Animations */
+  .catGrid img:hover {
+    transform: scale(1.08, 1.08);
+    opacity: 1;
+  }
 }

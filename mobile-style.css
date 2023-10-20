@@ -1,20 +1,24 @@
 /* Mobile */
 
-/* TODO: Define all Styles in whole project */
+/* DONE: Define all Styles Properties that will be rule 
+  for mobile and web
+  IMPORTANT:
+  -Start with setting dimensions for mobile
+  */
 
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  width: 393px;
+  width: 393px; /* Fix the problem */
 }
 
 header {
-  display: flex;
+  display: flex; /* This property will not change */
   justify-content: center; /* changed */
-  align-items: center;
-  background-color: #000000;
-  color: #fff;
+  align-items: center; /* This property will not change */
+  background-color: #000000; /* This property will not change */
+  color: #fff; /* This property will not change */
   text-align: left;
 }
 

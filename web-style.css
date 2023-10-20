@@ -50,21 +50,28 @@
   .section1 img {
     width: 50%;
     border-radius: 30px;
-    opacity: 0.8; /* Animations */
+    opacity: 0.9; /* Animations */
     transition: 0.3s; /* Animations */
     transition-delay: 0.3s; /* Animations */
   }
 
   /* Animations */
   .section1 img:hover {
-    transform: scale(1.08, 1.08);
+    transform: scale(1.09, 1.09);
     opacity: 1;
   }
 
   /* Id Added */
   #catImage2 {
     width: auto; /* fix the problem */
-    border-radius: 0px; /* added */
+    border-radius: 30px; /* added */
+    transition: 0.3s; /* Animations */
+    transition-delay: 0.3s; /* Animations */
+  }
+
+  /* Animations */
+  #catImage2:hover {
+    border-radius: 50%;
   }
 
   div h2 {
